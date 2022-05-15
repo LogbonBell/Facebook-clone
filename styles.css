@@ -1,0 +1,89 @@
+body {
+	font-size: 15px;
+	color: #1c1e21;
+	font-weight: normal;
+	background-color: #f1f1f1;
+	overflow-x: hidden;
+
+}
+
+.container {
+	background-color: #f1f1f1;
+	width: 100%;
+	text-align: left;
+	line-height: 30px;
+	position: relative; bottom: -200px; right: -230px;
+	font-size:25px;
+
+}
+
+/*Form, Please make sure to study*/
+.content {
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+	position: relative; right: -320px; top: -35px;
+
+
+}
+
+.content form {
+	width: 400px;
+	height: 360px;
+	padding: 16px;
+	margin-bottom: 30px;
+	border-radius: 8px;
+	background: #f8f8f8;
+	box-shadow: 1px 1px grey;
+}
+
+.content form input {
+	width: 90%;
+	height: 52px;
+	background: #f8f8f8;
+	padding: 0 15px;
+	font-size: 17px;
+	border-radius: 6px;
+	border: 1px solid #dddfe2;
+	margin-bottom: 15px;
+
+}
+
+::placeholder {
+	color: #9094b
+}
+
+.btn {
+	border-radius: 6px;
+	font-size: 17px;
+	line-height: 48px;
+	padding: 0 16px;
+	background: #1877f2;
+	color: #fff;
+	margin-bottom: 20px;
+	text-transform: capitalize;
+	font-weight: 500;
+}
+
+.login a {
+	display: block;
+}
+
+.create-btn a {
+	display: inline-block;
+	padding: 0 17px;
+	background: #4cd137;
+}
+
+.forget {
+	font-size: 14px;
+	line-height: 20px;
+	color: #1877f2;
+}
+
+.content p a {
+	color: #1c1e21;
+	font-weight: 600;
+	text-align: center;
+}
+
